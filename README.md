@@ -1,4 +1,4 @@
-# Hotel PMS – Hotel Reservation and Booking System
+# Hotel Reservation and Booking System
 
 ## Overview
 
