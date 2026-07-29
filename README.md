@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hotel PMS (Property Management System) is an academic software engineering prototype that demonstrates the transformation of an Object-Oriented Analysis and Design (OOAD) model into a working web application.
+Hotel Booking and Reservation system is an academic software engineering prototype that demonstrates the transformation of an Object-Oriented Analysis and Design (OOAD) model into a working web application.
 
 The project focuses on implementing the core workflow of a hotel reservation system, including time-based room booking, partial-duration booking, dynamic room state management, stay extension, conflict detection, and automatic room reallocation.
 
