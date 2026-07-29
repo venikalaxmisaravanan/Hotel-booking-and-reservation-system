@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-background text-on-surface;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+
+  /* Data-heavy strings (room numbers, prices, booking IDs) use the mono
+     face specified in DESIGN.md for character alignment. */
+  .font-data {
+    font-family: "JetBrains Mono", monospace;
+  }
+}
+
+@layer components {
+  /* Small helper so every status pill in the app (dashboard, admin
+     dashboard, booking details) stays visually consistent. */
+  .status-pill {
+    @apply inline-flex items-center gap-1 rounded-full px-sm py-1 text-label-caps uppercase;
+  }
+}
